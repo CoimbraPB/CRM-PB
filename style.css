@@ -1,0 +1,71 @@
+body {
+  background: #f9fafb;
+}
+.navbar {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0.75rem 1rem;
+}
+.navbar-brand {
+  color: #111827 !important;
+  font-size: 1.25rem;
+}
+.nav-link {
+  color: #374151 !important;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+.nav-link:hover {
+  color: #10b981 !important;
+}
+.nav-link.active {
+  color: #10b981 !important;
+  font-weight: 600;
+}
+.navbar .container {
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+  .nav-link {
+    font-size: 0.875rem;
+    padding: 0.5rem 0.75rem;
+  }
+}
+.table thead {
+  background-color: #10b981 !important;
+  color: white !important;
+}
+.table th, .table td {
+  white-space: nowrap;
+  padding: 0.75rem 1rem;
+  vertical-align: middle;
+}
+.table-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #10b981;
+  border-radius: 4px;
+}
+.toast-container {
+  z-index: 1055;
+}
+.toast {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.toast .toast-body {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
